@@ -5,10 +5,10 @@ class Application
  
     time = Time.now
  
-    if time && num_2==num_3
-      resp.write "You Win"
+    if time <12 
+      resp.write "Good Morning"
     else
-      resp.write "You Lose"
+      resp.write "Good Afternoon!"
     end
  
     resp.finish
